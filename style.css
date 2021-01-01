@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-style: italic;
+    /* background-color: greenyellow; */
+    background-color: #24292e;
+}
+
+li {
+    list-style-type: none;
+    background-color: lightgoldenrodyellow;
+}
+
+#go {
+    background-color: #ff0a54;
+}
+
+#allImages {
+    display: none;
+    width: 100%;
+    align-content: center;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+}
+
+/* CSS FOR SEARCH BAR */
+
+#searchBar {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#city {
+    margin-right: 4px;
+    height: 20px;
+    width: 30%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#go {
+    border-radius: 15px;
+}
+
+/* CSS FOR SEARCH CITY PARAGRAPH */
+
+#searchFor {
+    color: aqua;
+    text-align: center;
+}
+
+/* CSS FOR IMAGES */
+
+#topRow,
+#bottomRow {
+    display: flex;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.row1,
+.row2 {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
